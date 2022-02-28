@@ -1,4 +1,4 @@
-# Collection-of-take-home-assignments-by-big-web3-companies (Solved)
+# A Collection of take home assignments by big web3 companies (Solved)
 
 In this repo I'll be sharing with you the most relevant challenges proposed as take home assignments for senior solidity/web3 engineers  by  big blockchain companies (Consensys included).
 

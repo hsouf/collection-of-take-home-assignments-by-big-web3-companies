@@ -3,7 +3,7 @@
 In this repo I'll be sharing with you the most relevant challenges proposed as take home assignments for senior solidity/web3 engineers  by  big blockchain companies (Consensys included).
 
 
-## 1_challenge: 
+### 1_challenge: 
 
 Write a simple CLI script, that when given a 64-byte string, it finds a suitable 4-byte prefix so that, a
 SHA256 hash of the prefix combined with the original string of bytes, has two last bytes as 0xca, 0xfe.
@@ -22,7 +22,7 @@ Should return
 00003997
 ````
 
-## 2_challenge: (by Fluencytech.com)
+### 2_challenge: (by Fluencytech.com)
 
 Imagine you are a developer working on adding staking functionality to some ERC20 token. Some of
 the work has already been done, but few methods are still missing and assigned to you to implement.
@@ -37,7 +37,7 @@ Note #2: fix all the bugs found as well.
 Note #3: all interfaces used in the contract are the default ones taken from open source library
 OpenZeppelin https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package
 
-## 3_challenge: Firewall Factory
+### 3_challenge: Firewall Factory
 
 Write a simple factory contract with built-in Firewall mechanism.
 The factory should be ownable and provide a public function to deploy any custom contract when
@@ -49,3 +49,18 @@ deployed or not. Firewall should work in a way that it is possible to whitelist 
 its bytecode. Factories should be able to deploy only whitelisted contracts, all other ones should be
 rejected automatically as not allowed. Only a contract owner should be able to add to or remove from
 whitelist, while everyone should be able to use factory for creation of whitelisted contracts.
+### 4_challenge:Full Stack Web Challenge
+
+Write a React web application using any of the well-known frameworks (Gatsby, Material UI,
+etc.) that connects to either Energi or Ethereum blockchains using Web3 library, and displays
+the latest:
+- Block number
+- Number of transactions
+- Miner (address that mined the block)
+- Total difficulty
+- Add a button to pause or resume requests.
+
+```
+Extra: If you want to impress, add a table populated with all transactions sorted by amount in the
+descending order.
+``` 

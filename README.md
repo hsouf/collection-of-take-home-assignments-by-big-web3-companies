@@ -64,3 +64,15 @@ the latest:
 Extra: If you want to impress, add a table populated with all transactions sorted by amount in the
 descending order.
 ``` 
+### 5_challenge: (by Consensys)
+
+Please go through the following smart contract challenge if you haven’t already (if you have, let
+us know your score and learnings/challenges):
+https://capturetheether.com/
+Please feel free to take notes as you go, and comment on what you learned/found challenging.
+
+### 6_challenge: (by Consensys)
+
+Please share links/resources to past relevant work on Ethereum blockchain-based
+Dapps/applications that required the implementation of smart contracts and were ideally
+deployed on mainnet. You can also share sample codes if they are not public as relevant.
